@@ -27,7 +27,7 @@
   background: var(--light-royal-blue-background);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 39rem) {
   .main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
