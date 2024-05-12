@@ -19,4 +19,29 @@
   color: white;
   border-radius: 100px;
   font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.summary__continue:hover {
+  background: var(--light-royal-blue-background);
+}
+
+@media (min-width: 700px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.156);
+    max-width: 43rem;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  .summary {
+    flex: 1;
+  }
+
+  .results {
+    flex: 1;
+  }
 }

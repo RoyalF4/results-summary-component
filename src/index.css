@@ -31,3 +31,12 @@ body {
 ul {
   list-style: none;
 }
+
+@media (min-width: 700px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+  }
+}

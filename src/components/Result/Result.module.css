@@ -46,3 +46,9 @@
   font-size: 1rem;
   color: var(--light-lavender);
 }
+
+@media (min-width: 700px) {
+  .result {
+    border-radius: 0 30px 30px 0;
+  }
+}

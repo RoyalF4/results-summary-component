@@ -7,7 +7,7 @@ export default function App() {
   console.log(data);
 
   return (
-    <main className="main">
+    <main className={styles.main}>
       <Result />
       <div className={styles.summary}>
         <h2 className={styles.summary__title}>Summary</h2>
