@@ -1,6 +1,5 @@
 .category {
   display: flex;
-  background: rgba(255, 0, 0, 0.085);
   padding: 0.8em 0.8em;
   border-radius: 10px;
 }
@@ -10,7 +9,6 @@
 }
 
 .category__name {
-  color: red;
   flex: 1;
   margin-left: 1em;
 }

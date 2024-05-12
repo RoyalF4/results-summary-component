@@ -18,6 +18,8 @@ export default function App() {
               category={item.category}
               score={item.score}
               icon={item.icon}
+              color={item.color}
+              bgColor={item.bgColor}
             />
           ))}
         </ul>
