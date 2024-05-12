@@ -1,0 +1,22 @@
+.summary {
+  padding: 1.5em 2em;
+}
+
+.summary__title {
+  font-size: 1.2rem;
+  color: var(--dark-gray-blue);
+  margin-bottom: 1.5em;
+}
+
+.summary__categories {
+  margin-bottom: 1.5em;
+}
+
+.summary__continue {
+  background: var(--dark-gray-blue);
+  width: 100%;
+  padding: 1em;
+  color: white;
+  border-radius: 100px;
+  font-weight: 700;
+}
