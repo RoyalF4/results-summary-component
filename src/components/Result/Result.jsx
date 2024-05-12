@@ -3,7 +3,7 @@ import styles from './Result.module.css';
 export default function Result() {
   return (
     <div className={styles.result}>
-      <h2 className={styles.result__title}>Your Result</h2>
+      <h1 className={styles.result__title}>Your Result</h1>
       <div className={styles.result__score}>
         76
         <span className={styles.accentScore}>of 100</span>
